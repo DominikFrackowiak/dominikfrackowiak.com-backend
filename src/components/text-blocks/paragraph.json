@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_text_blocks_paragraphs",
+  "info": {
+    "displayName": "Paragraph",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Paragraph": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
