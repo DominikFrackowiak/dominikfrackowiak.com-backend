@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "curricula",
+  "info": {
+    "singularName": "curriculum",
+    "pluralName": "curricula",
+    "displayName": "curriculum"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "skills": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::skill.skill"
+    }
+  }
+}
